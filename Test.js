@@ -10,7 +10,6 @@ function test()
 function change()
 {
     hour=d.getHours();
-    minute=d.getMinutes();
 
     if(hour>=10 && hour<=15)
     document.getElementById("dp").src="myself3.jpg";
