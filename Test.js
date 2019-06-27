@@ -4,7 +4,7 @@ let day;
 let hours;
 function test()
 {
-    setInterval(change,1000);
+    setInterval(change,3000);
 }
 
 function change()
