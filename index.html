@@ -1,62 +1,94 @@
-<html>
+body
+{
+    margin: 0px;
+    background-color: rgb(102, 153, 153);
+}
 
-<head>
-    <title>
-        Portfolio
-    </title>
-    
-<script src="Test.js"></script>
-<link href="Test.css" rel="stylesheet" type="text/css">
+#main
+{
+    margin-left:200px;
+    border-style: solid;
+    border-color: yellowgreen;
+    border-width:20px;
+    height:1200px;
+    width:900px;
+    background-color: white;
+    font-size:30px;
 
-</head>    
-<body onload="test()">
+}
 
-<div id="main">    
+#embedded
+{
+    height: 100%;
+    width:300px;    
+    background-color:white;
+    margin-left:600px;
+}
 
-    <div id="top_left">
-        <div style="font-weight:bold; padding:10px; background-color:black; color:white; border-color:black; font-style:normal; font-size:40px;">OBJECTIVE</div>
-        To work in an environment where I can utilize my skills in a 
-        proper manner and get chances to learn more and more.
-    </div>
+#nested
+{
+    height:45%;
+    width:300px;
+    background-color:black;
+}
 
-    <img id="down_left" src="education.jpg"/>
+.designation
+{
+    font-size: 28px;
+    margin-left: 60px;
+    font-weight: bold;
+    display:block;
+}
 
-    <div id="skills">
+.college
+{
+    font-size: 28px; 
+    margin-left: 60px; 
+    font-weight: bold;
+}
 
-            <div style="background-color:black; padding: 10px; color:white; border-color:white; border-style: solid; border-radius:25px; font-weight: bold; font-size: 40px;">SKILLS:</div>
+#down_left
+{
+    height:620px;
+    width:600px;
+    background-color: black;
+    position: absolute;
+    top: 200px;
 
-            <div class="skills">Core Java</div>
-            <div style="background-color:grey;" class="skills">Web Development</div>
-            <div class="skills">C</div>
-            <div style="background-color:grey;" class="skills">SQL</div>
-            <div class="skills">JSP</div>
+}
 
-    </div>
+#top_left
+{
+  position:absolute;
+  width:595px;
+  height:500px; 
+  font-weight: bold;
+  border-style:solid;
+  border-color:white;
+}
 
+#skills
+{
+    position: absolute;
+    width:600px;
+    top:300px;
+}
 
-    <div id="embedded">
-
-        <div id="nested">
-            <img id="dp" src="myself.jpg" style="margin-left:50px; margin-top:20px; height:200px; width:200px;"><br/><br/>
-            <span style="color:white; margin-left: 10px; font-size: 28px; font-weight: bold;">INDRAPREET SINGH</span>
-        </div>
-
-        <img src="computer.jpg" height="60px" width="60px" style="margin-left:60px; display:block;"/>
-        <div class="designation"> Engineer </div>
-        <div class="designation"> Enquero Global </div>
-
-        <img src="education.png" style="margin-left:60px; margin-top:30px;" height="60px" width="60px"/>
-        <div class="college"> Post Graduate in Computer Applications </div>
-        <div class="college" style="margin-top:20px;"> Vellore Institute of Technology,Vellore </div>
-
-
-    </div>
-
-</div>
-
-</body>
-
-
-
-
-</html>
+.skills
+{
+    background-color: white;
+    border-color:black;
+    border-style: solid; 
+    font-weight: bold; 
+    font-size: 40px;
+    padding: 10px;
+    border-radius:25px;
+}
+#bottom_left
+{
+    width: 600px;
+    height: 399px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 820px;
+}
