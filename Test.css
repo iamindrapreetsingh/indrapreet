@@ -10,10 +10,11 @@ body
     border-style: solid;
     border-color: yellowgreen;
     border-width:20px;
-    height:800px;
+    height:1200px;
     width:900px;
     background-color: white;
     font-size:30px;
+
 }
 
 #embedded
@@ -82,4 +83,12 @@ body
     font-size: 40px;
     padding: 10px;
     border-radius:25px;
+}
+#bottom_left
+{
+    width: 600px;
+    height: 399px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 820px;
 }
